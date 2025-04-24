@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 -->
+
 # DATAGEN (Previously AI-Data-Analysis-MultiAgent)
 
 ![DATAGEN Banner](DATAGEN.jpg "DATAGEN Banner")
@@ -93,7 +95,23 @@ DATAGEN revolutionizes data analysis through its innovative multi-agent architec
 
 4. Set up environment variables:
 
-    **Rename `.env.example` to `.env` and fill all the values**
+    <hr></hr>
+    <p style="color: green; text-align: center;">
+      <strong><u>IMPORTANT INFORMATION</u></strong>
+    </p>
+    <p>
+      <a style="color: red;"><strong><u>** DELETE **</u></strong></a>
+      &nbsp;
+      <code>data_storage/.gitkeep</code>
+    </p>
+
+    <p>
+      <a style="color: yellow;"><strong><u>** RENAME **</u></strong></a>
+      &nbsp;
+      <code>.env.example</code> to
+      <code>.env</code> and fill all the values
+    </p>
+    <hr></hr>
 
     ```sh
     # ---- DATAGEN ENVIRONMENT ----
