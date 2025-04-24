@@ -16,14 +16,14 @@
         "editor.formatOnType": false,
         "editor.wordBasedSuggestions": "off"
     },
+    "python.defaultInterpreterPath": "/home/ahellwig/anaconda3/envs/digital_assistant",
     //// Linting
     "pylint.enabled": true,
     "pylint.args": ["--rcfile=.pylintrc"],
     //// Formatting
     "yapf.args": [
         "--style",
-        ".style.yapf",
-        "-vv"
+        ".style.yapf"
     ],
     //// Docstrings
     "autoDocstring.docstringFormat": "google"

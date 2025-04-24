@@ -1,9 +1,13 @@
 import logging
+
+from custom_logging_formatter import CustomFormatter
+
+
 # Configure logging
-def setup_logger(log_file:str='agent.log'):
+def setup_logger(log_file: str = 'agent.log'):
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
-    
+
     # Remove any existing handlers to prevent duplicates
     if logger.hasHandlers():
         logger.handlers.clear()
@@ -14,10 +18,10 @@ def setup_logger(log_file:str='agent.log'):
 
     # Console handler
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.INFO)
+    console_handler.setLevel(logging.DEBUG)
 
     # Formatter
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    formatter = CustomFormatter()
     file_handler.setFormatter(formatter)
     console_handler.setFormatter(formatter)
 
