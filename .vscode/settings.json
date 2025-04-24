@@ -1,0 +1,30 @@
+{
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    /* ---- Programming Languages ---- */
+    // Python
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "always",
+        "editor.defaultFormatter": "eeyore.yapf",
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": false,
+        "editor.wordBasedSuggestions": "off"
+    },
+    //// Linting
+    "pylint.enabled": true,
+    "pylint.args": ["--rcfile=.pylintrc"],
+    //// Formatting
+    "yapf.args": [
+        "--style",
+        ".style.yapf",
+        "-vv"
+    ],
+    //// Docstrings
+    "autoDocstring.docstringFormat": "google"
+}

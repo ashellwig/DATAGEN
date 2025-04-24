@@ -1,0 +1,19 @@
+[style]
+based_on_style = pep8
+indent_width = 4
+column_limit = 80
+spaces_before_comment = 2
+split_before_logical_operator = true
+split_before_first_argument = false
+split_complex_comprehension = true
+coalesce_brackets = true
+allow_split_before_default_or_named_assigns = true
+allow_split_before_dict_value = true
+dedent_closing_brackets = true
+continuation_align_style = fixed
+split_arguments_when_comma_terminated = true
+split_before_named_assigns = false
+split_all_comma_separated_values = true
+split_all_top_level_comma_separated_values = false
+split_before_dot = true
+split_before_closing_bracket = false
